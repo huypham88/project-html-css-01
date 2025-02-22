@@ -312,7 +312,8 @@ a {
 }
 
 .feature .lists {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 70px;
     gap: 30px;
 }
@@ -578,7 +579,7 @@ a {
 }
 
 .footer .row-top {
-    gap: 185px;
+    column-gap: 185px;
     margin-bottom: 81px;
 }
 
